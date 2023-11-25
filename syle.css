@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@500;700;900&family=Big+Shoulders+Display:wght@300;800;900&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300;400&family=Kumbh+Sans&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@700&family=Roboto:wght@700&family=Space+Mono:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    background-image: url(src/Rectangle.svg);
+  }
+#countdown {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+  }
+
+.ap{
+    position:relative;
+    z-index: 2;
+
+}
+.coxar{
+    position: absolute;
+    bottom: 0;
+}
+.bozebi{
+    position: absolute;
+    z-index: 555;
+}
+.rato{
+    position: absolute;
+    color: green;
+}
+#countdow{
+    color: #FB5E84;
+
+text-align: center;
+font-family: Red Hat Text;
+font-size: 90px;
+background-color: #343650;
+width: 700px;
+
+font-style: normal;
+font-weight: 700;
+line-height: 121px; /* 88.75% */
+letter-spacing: 20.4px;
+margin-top: 270px;
+margin-left: 1046px;
+height: 140px;
+}
